@@ -1,0 +1,107 @@
+/* The is the CSS format for the HTML file. */
+body {
+  background-color: rgb(130, 130, 130);
+}
+
+h1 {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 100px;
+}
+
+p {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 40px;
+}
+
+.theButton {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  border-color: black;
+  font-family: "nasalizationregular";
+  font-size: 22px;
+}
+
+div {
+  font-family: "nasalizationregular";
+  font-size: 20px;
+}
+/* This is for centering the whole table and formatting the font within that table */
+table {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(160, 160, 160);
+}
+/* This was how I was able to get the tables to site side by side */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+/* This was for making the text format on the left margin within the table */
+td {
+  text-align: left;
+  font-size: 16px;
+}
+/* This outer and inner was how I was able to get the two buttons placed side by side on the same line */
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+}
+/* This is how I was able to add the NASA themed font*/
+@font-face {
+  font-family: "nasalizationregular";
+  src: url("/fonts/nasalization-rg.woff2") format("woff2"),
+    url("/fonts/nasalization-rg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  height: 25vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: white;
+}
+
+nav {
+  padding-left: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+a {
+  color: rgb(20, 40, 130);
+  font-family: "nasalizationregular";
+  font-size: 25px;
+}
+
+.centered {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0);
+  padding: 35px;
+}
