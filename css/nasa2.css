@@ -18,6 +18,16 @@ p {
   font-family: "nasalizationregular";
   font-size: 40px;
 }
+
+.theButton {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  border-color: black;
+  font-family: "nasalizationregular";
+  font-size: 22px;
+}
 /* This is the formatting for the Arm button */
 .launchButton {
   width: 200px;
