@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UAT Space Program</title>
+    <link rel="icon" href="image/favicon.ico">
     <!-- This is the link to the CSS formatting file for the page -->
     <link href="/css/nasa2.css" rel="stylesheet" type="text/css"/>
     <!-- This is the link to the Javascript file that runs the functions for the page -->
@@ -60,7 +61,12 @@
     <div id="outer">
         <!-- Both buttons are set up to run mutliple functions when clicked -->
         <div class="inner"><button onclick="arm(); theLaunch(); playControl();" class="launchButton" id="launchButton">Arm Launch</button></div>
-        <div class="inner"><button onclick="abort(); reload();" class="abortButton" id="abortButton">Abort Launch</button></div>
+        <div class="inner"><button onclick="abort(); reload();" class="abortButton" id="abortButton" disabled=true>Abort Launch</button></div>
+        <div class="inner">
+            <a href="nasa3.html">
+                <button class="theButton" id="theButton">Go to Data</button>
+            </a>
+        </div>
     </div>
     <!-- These are the audio files used with functions -->
     <audio id="control" src="/resource/s_Computers are in Control.mp3"></audio>
