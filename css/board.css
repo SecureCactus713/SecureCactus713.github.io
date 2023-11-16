@@ -92,6 +92,16 @@ p {
   text-align: center;
 }
 
+t {
+  font-family: "montserratregular";
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;
+}
+
 ol li {
   display: list-item;
   font-family: "montserratregular";
