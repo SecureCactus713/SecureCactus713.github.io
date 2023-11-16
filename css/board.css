@@ -97,9 +97,8 @@ t {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  text-align: center;
   text-decoration-line: underline;
-  text-decoration-thickness: auto;
+  text-align: center;
 }
 
 ol li {
