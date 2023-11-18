@@ -61,12 +61,6 @@ a {
   background: rgb(70, 100, 200);
 }
 
-.button {
-  width: 200px;
-  height: 40px;
-  background-color: grey
-}
-
 nav {
   flex: 1;
   padding-left: 60px;
