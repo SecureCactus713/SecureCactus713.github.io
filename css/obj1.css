@@ -96,3 +96,25 @@ p {
   align-items: center;
   background: rgb(70, 100, 200);
 }
+
+.obj {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pdf {
+  width: 40%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
