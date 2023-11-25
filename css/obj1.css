@@ -68,3 +68,10 @@ nav ul li {
   margin-left: auto;
   margin-right: auto;
 }
+
+.midbar {
+  height: 1000px;
+  margin: auto;
+  align-items: center;
+  background: rgb(70, 100, 200);
+}
