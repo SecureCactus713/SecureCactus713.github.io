@@ -91,8 +91,10 @@ p {
 }
 
 .midbar {
-  height: 3000px;
+  height: max-content;
   margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
   align-items: center;
   background: rgb(70, 100, 200);
 }
