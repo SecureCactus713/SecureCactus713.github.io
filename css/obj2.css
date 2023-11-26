@@ -70,15 +70,19 @@ nav ul li {
 }
 
 .midbar1 {
-  height: 1000px;
+  height: max-content;
   margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
   align-items: center;
   background: rgb(70, 100, 200);
 }
 
 .midbar2 {
-  height: 1000px;
+  height: max-content;
   margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
   align-items: center;
   background: rgb(70, 100, 200);
 }
