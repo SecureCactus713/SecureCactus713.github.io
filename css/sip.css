@@ -58,15 +58,6 @@ a {
   background: rgb(70, 100, 200);
 }
 
-.midbar2 {
-  height: max-content;
-  margin: auto;
-  padding: 50px;
-  box-sizing: border-box;
-  align-items: center;
-  background: rgb(70, 100, 200);
-}
-
 nav {
   flex: 1;
   padding-left: 60px;
