@@ -88,7 +88,7 @@ td {
 }
 
 .navbar {
-  height: 25vh;
+  height: max-content;
   margin: auto;
   display: flex;
   align-items: center;
