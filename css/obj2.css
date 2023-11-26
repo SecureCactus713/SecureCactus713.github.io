@@ -70,14 +70,14 @@ nav ul li {
 }
 
 .midbar1 {
-  height: 3700px;
+  height: 1000px;
   margin: auto;
   align-items: center;
   background: rgb(70, 100, 200);
 }
 
 .midbar2 {
-  height: 3700px;
+  height: 1000px;
   margin: auto;
   align-items: center;
   background: rgb(70, 100, 200);
@@ -119,18 +119,21 @@ nav ul li {
   width: 30%;
   height: 1100px;
   display: inline-block;
+  margin-left: auto;
 }
 
 .pdf2 {
   width: 30%;
   height: 1100px;
   display: inline-block;
+  margin-left: auto;
 }
 
 .pdf3 {
   width: 30%;
   height: 1100px;
   display: inline-block;
+  margin-left: auto;
 }
 
 iframe {
