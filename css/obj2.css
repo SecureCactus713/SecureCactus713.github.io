@@ -98,7 +98,7 @@ nav ul li {
 .img-container img {
   width: 30%;
   padding: 5px;
-  vertical-align: top;
+  display: inline-block; 
 }
 
 .pdf {
@@ -113,8 +113,22 @@ nav ul li {
   display: flex;
 }
 
-.container > div {
-  flex: 1;
+.pdf1 {
+  width: 30%;
+  height: 1100px;
+  display: inline-block;
+}
+
+.pdf2 {
+  width: 30%;
+  height: 1100px;
+  display: inline-block;
+}
+
+.pdf3 {
+  width: 30%;
+  height: 1100px;
+  display: inline-block;
 }
 
 iframe {
