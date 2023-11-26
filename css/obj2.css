@@ -93,14 +93,7 @@ nav ul li {
 
 .img-container {
   display: flex;
-}
-
-.img-container img {
-  width: 25%;
-  padding: 5px;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-between;
 }
 
 .pdf {
@@ -116,24 +109,27 @@ nav ul li {
 }
 
 .pdf1 {
-  width: 30%;
+  width: 50%;
   height: 1100px;
-  display: inline-block;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .pdf2 {
-  width: 30%;
+  width: 50%;
   height: 1100px;
-  display: inline-block;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .pdf3 {
-  width: 30%;
+  width: 50%;
   height: 1100px;
-  display: inline-block;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
 }
 
 iframe {
