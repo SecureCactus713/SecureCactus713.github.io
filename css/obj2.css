@@ -68,3 +68,56 @@ nav ul li {
   margin-left: auto;
   margin-right: auto;
 }
+
+.midbar1 {
+  height: 3700px;
+  margin: auto;
+  align-items: center;
+  background: rgb(70, 100, 200);
+}
+
+.midbar2 {
+  height: 3700px;
+  margin: auto;
+  align-items: center;
+  background: rgb(70, 100, 200);
+}
+
+.obj {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-container img {
+  width: 33%;
+  padding: 5px;
+}
+
+.pdf {
+  width: 50%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
