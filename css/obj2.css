@@ -143,7 +143,5 @@ table, td {
 }
 
 table {
-  width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
