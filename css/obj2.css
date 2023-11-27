@@ -92,6 +92,7 @@ p {
 }
 
 .midbar {
+  width: 100%;
   height: max-content;
   margin: auto;
   padding: 50px;
@@ -108,7 +109,7 @@ p {
 }
 
 .tablis {
-  width: 75%;
+  width: 65%;
   height: auto;
   display: block;
   margin-left: auto;
