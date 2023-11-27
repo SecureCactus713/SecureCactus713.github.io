@@ -107,6 +107,14 @@ p {
   margin-right: auto;
 }
 
+.tablis {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pdf {
   width: 50%;
   height: 1100px;
