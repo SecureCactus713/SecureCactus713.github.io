@@ -87,7 +87,7 @@ nav ul li {
 }
 
 .row {
-  display: flex;
+  display: inline-flex;
 }
 
 .column {
