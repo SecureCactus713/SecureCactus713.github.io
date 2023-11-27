@@ -133,42 +133,23 @@ p {
   display: table-cell;
 }
 
-.pdf1 {
-  width: 50%;
-  height: 1100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pdf2 {
-  width: 50%;
-  height: 1100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pdf3 {
-  width: 50%;
-  height: 1100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-table, th, td {
+table, td {
   padding: 5px;
 }
 
+td {
+  width: 50%;
+  height: 1100px;
+}
+
 table {
-  width: 100%;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
