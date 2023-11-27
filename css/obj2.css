@@ -124,19 +124,12 @@ p {
   margin-right: auto;
 }
 
-#container {
-  display: flex;
-  justify-content: center;
-  align-itmes: center;
-  min-height: 500px;
-  background-color: red;
-}
-
-#container div {
-  height: 470px;
-  width: 333px;
-  background: yellow;
-  margin: 60px;
+.pdflis {
+  width: 50%;
+  height: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 iframe {
@@ -147,11 +140,6 @@ iframe {
 
 table, td {
   padding: 5px;
-}
-
-td {
-  width: 50%;
-  height: 1100px;
 }
 
 table {
