@@ -21,6 +21,7 @@
 
 body {
   background-color: rgb(20, 40, 130);
+  height: max-content;
 }
 
 .index {
