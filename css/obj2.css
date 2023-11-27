@@ -123,13 +123,14 @@ p {
 }
 
 .container {
-  display: flex;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
 }
 
 .column {
-  flex: 30%;
-  height: 500px;
-  padding: 5px;
+  display: table-cell;
 }
 
 .pdf1 {
