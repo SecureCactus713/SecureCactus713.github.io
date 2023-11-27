@@ -107,15 +107,8 @@ p {
   margin-right: auto;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .column {
-  float: left;
-  width: 30%;
+  flex: 30%
   padding: 5px;
 }
 
