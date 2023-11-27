@@ -109,7 +109,7 @@ p {
 
 .column {
   flex: 30%;
-  height: auto;
+  height: 100px;
   padding: 5px;
 }
 
