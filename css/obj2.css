@@ -109,8 +109,8 @@ p {
 }
 
 .tablis {
-  max-width: 50%;
-  max-height: auto;
+  width: 50%;
+  height: auto;
   display: block;
 }
 
