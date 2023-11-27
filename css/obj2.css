@@ -91,6 +91,15 @@ nav ul li {
   justify-content: space-around;
 }
 
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
+
 .pdf {
   width: 50%;
   height: 1100px;
