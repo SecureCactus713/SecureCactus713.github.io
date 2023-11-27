@@ -107,10 +107,12 @@ p {
   margin-right: auto;
 }
 
-.column {
-  flex: 30%;
-  height: 500px;
-  padding: 5px;
+#outer {
+  width: 100%;
+}
+
+.inner {
+  display: inline-block;
 }
 
 .pdf {
@@ -123,6 +125,12 @@ p {
 
 .container {
   display: flex;
+}
+
+.column {
+  flex: 30%;
+  height: 500px;
+  padding: 5px;
 }
 
 .pdf1 {
