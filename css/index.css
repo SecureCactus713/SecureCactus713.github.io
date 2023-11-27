@@ -47,8 +47,11 @@ a {
 }
 
 .footbar {
-  width: 90%;
+  width: 100%;
   height: 14vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   margin-bottom: 0;
   display: flex;
   align-items: center;
