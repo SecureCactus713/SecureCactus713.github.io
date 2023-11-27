@@ -86,12 +86,15 @@ nav ul li {
   margin-right: auto;
 }
 
-.row {
-  display: inline-flex;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .column {
-  flex: 33.33%;
+  float: left;
+  width: 33.33%;
   padding: 5px;
 }
 
