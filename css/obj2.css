@@ -107,14 +107,6 @@ p {
   margin-right: auto;
 }
 
-#outer {
-  width: 100%;
-}
-
-.inner {
-  display: inline-block;
-}
-
 .pdf {
   width: 50%;
   height: 1100px;
