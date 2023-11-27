@@ -124,15 +124,19 @@ p {
   margin-right: auto;
 }
 
-.container {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  border-spacing: 10px;
+#container {
+  display: flex;
+  justify-content: center;
+  align-itmes: center;
+  min-height: 500px;
+  background-color: red;
 }
 
-.column {
-  display: table-cell;
+#container div {
+  height: 470px;
+  width: 333px;
+  background: yellow;
+  margin: 60px;
 }
 
 iframe {
