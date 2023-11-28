@@ -116,6 +116,14 @@ p {
   margin-right: auto;
 }
 
+.read {
+  width: 75%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 iframe {
   display: block;
   margin-left: auto;
@@ -124,6 +132,8 @@ iframe {
 
 .img-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-container img {
