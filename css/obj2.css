@@ -92,16 +92,16 @@ p {
 }
 
 .midbar {
-  width: max-content;
   height: max-content;
   margin: auto;
   padding: 50px;
   box-sizing: border-box;
+  align-items: center;
   background: rgb(70, 100, 200);
 }
 
 .obj {
-  width: 25%;
+  width: 35%;
   height: auto;
   display: block;
   margin-left: auto;
