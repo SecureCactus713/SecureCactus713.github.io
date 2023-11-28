@@ -68,3 +68,62 @@ nav ul li {
   margin-left: auto;
   margin-right: auto;
 }
+
+.midbar {
+  height: max-content;
+  margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  background: rgb(70, 100, 200);
+}
+
+.obj {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pdf {
+  width: 50%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.read {
+  width: 90%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: text-top
+}
+
+.img-container img {
+  width: 30%;
+  padding: 5px; 
+}
+
+.reader {
+  display: flex;
+}
+
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
