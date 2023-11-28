@@ -117,7 +117,7 @@ p {
 }
 
 .read {
-  width: 75%;
+  width: 90%;
   height: 1100px;
   display: block;
   margin-left: auto;
@@ -132,7 +132,6 @@ iframe {
 
 .img-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   vertical-align: text-top
 }
