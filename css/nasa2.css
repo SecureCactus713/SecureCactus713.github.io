@@ -108,3 +108,10 @@ a {
   font-family: "nasalizationregular";
   font-size: 25px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  vertical-align: text-top;
+  padding: 50px;
+}
