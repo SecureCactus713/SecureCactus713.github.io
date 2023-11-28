@@ -101,7 +101,7 @@ p {
 }
 
 .obj {
-  width: 35%;
+  width: 50%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -114,6 +114,34 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.read {
+  width: 90%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: text-top
+}
+
+.img-container img {
+  width: 30%;
+  padding: 5px; 
+}
+
+.reader {
+  display: flex;
+}
+
+.column {
+  flex: 30%;
+  padding: 5px;
 }
 
 iframe {
