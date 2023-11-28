@@ -138,8 +138,7 @@ iframe {
 
 .img-container img {
   width: 30%;
-  padding: 5px;
-  display: inline-block;  
+  padding: 5px; 
 }
 
 .reader {
