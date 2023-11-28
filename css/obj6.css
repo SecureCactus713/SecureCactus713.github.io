@@ -40,6 +40,27 @@ nav ul li {
   margin: 0px 20px;
 }
 
+h1 {
+  font-family: "montserratsemibold";
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "montserratsemibold";
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "montserratregular";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
 .navbar {
   height: max-content;
   margin: auto;
