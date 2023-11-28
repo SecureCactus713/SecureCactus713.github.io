@@ -90,3 +90,10 @@ p {
   background: rgba(255, 255, 255, 0);
   padding: 35px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  vertical-align: text-top;
+  padding: 25px;
+}
