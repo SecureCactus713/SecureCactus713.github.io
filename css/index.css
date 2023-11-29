@@ -19,14 +19,14 @@
 }
 body {
   background-color: rgb(20, 40, 130);
-  min-height: 100vh;
+  min-height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 header {
   display: flex;
-  width: 99vw;
+  width: 100vw;
   height: max-content;
   line-height: 50px;
   background-color: white;
@@ -85,7 +85,7 @@ footer {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
-  width: 99vw;
+  width: 100vw;
   height: 14vh;
 }
 footer p{
