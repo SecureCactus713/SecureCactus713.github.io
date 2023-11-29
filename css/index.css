@@ -19,7 +19,7 @@
 }
 body {
   background-color: rgb(20, 40, 130);
-  min-height: max-content;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
