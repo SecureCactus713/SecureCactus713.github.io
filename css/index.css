@@ -75,11 +75,6 @@ p {
   text-align: center;
 }
 section {
-  background: rgb(20, 40, 130);
-  background: -moz-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220));
-  background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220));
-  background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220));
-  background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220));
   height: max-content;
   width: 100%;
   display: flex;
@@ -108,6 +103,11 @@ footer p{
 .main-right {
   flex-direction: column;
   flex: 50%;
+  background: rgb(20, 40, 130);
+  background: -moz-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
 }
 .main-right-upper h1 {
   font-family: "montserratsemibold";
