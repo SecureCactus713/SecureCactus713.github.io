@@ -39,7 +39,8 @@ header {
 header a:hover {
   background-color: #ddd;
   color: black;
-  boarder-radius: 25px;
+  border-radius: 25px;
+  padding: 5px;
 }
 nav {
   flex: 1;
