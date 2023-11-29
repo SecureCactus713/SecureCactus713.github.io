@@ -78,7 +78,7 @@ p {
 }
 section {
   height: max-content;
-  width: max-content;
+  width: 100%;
   display: flex;
   border: 5px dashed pink;
 }
