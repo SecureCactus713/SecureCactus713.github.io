@@ -76,7 +76,7 @@ p {
 }
 section {
   rgb(20, 40, 130);
-  backgound-image: linear-gradient(
+  backgound-image: -moz-linear-gradient(
     to bottom right,
     rgb(10, 30, 90),
     rgb(90, 120, 220)
