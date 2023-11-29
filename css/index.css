@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 5px dashed red;
 }
 header {
   display: flex;
