@@ -18,7 +18,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(20, 40, 130);
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -75,6 +74,7 @@ p {
   text-align: center;
 }
 section {
+  background-color: rgb(20, 40, 130);
   height: max-content;
   width: 100%;
   display: flex;
