@@ -24,7 +24,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 5px dashed red;
 }
 header {
   display: flex;
@@ -37,7 +36,6 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 2%;
-  border: 5px dashed orange;
 }
 header a:hover {
   background-color: #ddd;
@@ -90,7 +88,6 @@ footer {
   padding-right: 5%;
   width: 100%;
   height: 25vh;
-  border: 5px dashed orange;
 }
 footer p{
   color: black;
@@ -101,6 +98,7 @@ footer p{
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
+  border: 5px dashed red;
 }
 .main-left-container {
   width: 100%;
@@ -108,6 +106,7 @@ footer p{
 .main-right {
   flex-direction: column;
   flex: 50%;
+  border: 5px dashed orange;
 }
 .main-right-upper h1 {
   font-family: "montserratsemibold";
