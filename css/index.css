@@ -75,6 +75,7 @@ p {
   text-align: center;
 }
 section {
+  background: rgb(20, 40, 130);
   height: max-content;
   width: 100%;
   display: flex;
@@ -108,6 +109,8 @@ footer p{
   background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
   background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
   background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  border-radius: 25px;
+  text-shadow: 3px 4px 6px #000000;
 }
 .main-right-upper h1 {
   font-family: "montserratsemibold";
