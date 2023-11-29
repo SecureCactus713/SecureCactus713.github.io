@@ -97,10 +97,10 @@ footer p{
   flex: 50%;
   justify-content: flex-start;
   overflow: hidden;
+  border-radius: 25px;
 }
 .main-left-container {
   width: 100%;
-  border-radius: 25px;
 }
 .main-right {
   flex-direction: column;
