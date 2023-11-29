@@ -94,8 +94,7 @@ footer p{
   font-size: 18px;
 }
 .main-left {
-  width: 100%;
-  display: flex;
+  flex: 50%;
   justify-content: flex-start;
   overflow: hidden;
   border: 5px dashed red;
