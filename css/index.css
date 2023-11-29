@@ -75,7 +75,6 @@ p {
   text-align: center;
 }
 section {
-  background: rgb(20, 40, 130);
   height: max-content;
   width: 100%;
   display: flex;
