@@ -150,6 +150,7 @@ footer p{
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
+  box-shadow: inset 0px 0px 10px 20px white;
 }
 .about-window {
   width: 100%;
