@@ -291,7 +291,7 @@ td {
   font-family: "nasalizationregular";
   font-size: 100px;
   padding: 75px;
-  text-shadow: 3px 4px 6px #000000;
+  text-shadow: 3px 4px 6px #FFFFFF;
   color: black;
 }
 .nas-base-color p {
@@ -299,7 +299,7 @@ td {
   font-family: "nasalizationregular";
   font-size: 40px;
   margin-top: 40px;
-  text-shadow: 3px 4px 6px #000000;
+  text-shadow: 3px 4px 6px #FFFFFF;
   color: black;
  }
 .immer {
