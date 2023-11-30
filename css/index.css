@@ -148,9 +148,10 @@ footer p{
   background-image: url("/image/about_tech_v2.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: auto;
-  box-shadow: inset 0px 0px 10px 20px white;
+  
 }
 .about-window {
   width: 100%;
