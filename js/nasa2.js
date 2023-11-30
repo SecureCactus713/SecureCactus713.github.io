@@ -9,7 +9,7 @@ function theLaunch() {
     for (var i=1; i<=27; i++) {
         if (i == 27) {
             setTimeout(function() {
-                document.getElementById("countDown").innerHTML= "<span style='color:#fc912d;'>Blastoff!!!</span>"; audio1.play(); audio2.play();
+                document.getElementById("countDown").innerHTML= "<span style='color:#fa7f0c;'>Blastoff!!!</span>"; audio1.play(); audio2.play();
                 document.getElementById("latitude").innerHTML= "33.448376°";
                 document.getElementById("longitude").innerHTML= "-112.074036°";
                 function pad (val) { return val > 9 ? val : "0" + val; }
