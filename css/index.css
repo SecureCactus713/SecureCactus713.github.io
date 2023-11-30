@@ -12,6 +12,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "nasalizationregular";
+  src: url("/fonts/nasalization-rg.woff2") format("woff2"),
+    url("/fonts/nasalization-rg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -209,5 +216,93 @@ footer p{
 }
 .nas-mid-text p {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nas-base-color {
+  background: rgb(130, 130, 130);
+  background: -moz-linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
+  background: -webkit-linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
+  background: -webkit-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
+  background: linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
+  flex-direction: column;
+}
+.launch-data {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(160, 160, 160);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+col {
+  width: 35%;
+}
+td {
+  text-align: left;
+  font-size: 16px;
+}
+#outer {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+.inner {
+  display: inline-block;
+}
+.theButton {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  border-color: black;
+  font-family: "nasalizationregular";
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.launchButton {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  border-radius: 25px;
+  border-color: darkgreen;
+  font-family: "nasalizationregular";
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.abortButton {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  border-radius: 25px;
+  border-color: darkred;
+  font-family: "nasalizationregular";
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nas-base-color h1 {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 100px;
+  padding: 75px;
+  text-shadow: 3px 4px 6px #000000;
+}
+.nas-base-color p {
+  text-align: center;
+  font-family: "nasalizationregular";
+  font-size: 40px;
+  margin-top: 40px;
+  text-shadow: 3px 4px 6px #000000;
+ }
+.immer {
+  text-align: center;
+}
+.immer p {
+  font-size: 20px;
+  font-family: "nasalizationregular";
+}
+audio {
+  margin-top: 15px;
   margin-bottom: 50px;
 }
