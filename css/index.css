@@ -137,6 +137,13 @@ footer p{
   margin-left: 100px;
   text-align: left;
 }
+.above-base {
+  background: rgb(20, 40, 130);
+  background: -moz-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+}
 .about-ground {
   background-image: url("/image/about_tech_v2.jpg");
   background-position: center;
