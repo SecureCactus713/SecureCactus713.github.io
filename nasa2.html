@@ -1,87 +1,78 @@
 <!DOCTYPE html>
-<!-- Levi Overstreet -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>UAT Space Program</title>
-    <link rel="icon" href="image/favicon.ico">
-    <!-- This is the link to the CSS formatting file for the page -->
-    <link href="/css/nasa2.css" rel="stylesheet" type="text/css"/>
-    <!-- This is the link to the Javascript file that runs the functions for the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css" type="text/css">
+    <link rel="icon" href="/image/favicon.ico">
     <script src="/js/nasa2.js"></script>
-</head>
-<body>
-    <div class="navbar">
-        <img src="image/uat-logo.png" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="board.html">Board Objectives</a></li>
-                <li><a href="sip.html">SIP</a></li>
-                <li><a href="nasa1.html">NASA</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="container">
-        <img src="/image/UATspaceLogo.png">
-    </div>
-    <h1> UAT Space Program </h1>
-        <!-- This is the section for setting up the table and structuring it -->
-    <table id="data" border="5" width="25%">
-        <col style="width: 35%;">
-        <col style="width: 35%;">
-        <thread>
-            <tr>
-                <th>Data Type</th>
-                <th>Readings</th>
-            </tr>
-            <tr>
-                <td>Time Elapsed:</td>
-                <td id="seconds">0 sec</td>
-            </tr>
-            <tr>
-                <td>Latitude:</td>
-                <td id="latitude">°</td>
-            </tr>
-            <tr>
-                <td>Longitude:</td>
-                <td id="longitude">°</td>
-            </tr>
-            <tr>
-                <td>GPS Altitude:</td>
-                <td id="gps_altitude">0 m</td>
-            </tr>
-        </thread>
-    </table>
-    <!-- This is to display the output for the count down -->
-    <p id="countDown"> Awaiting Launch </p>
-    <br>
-    <!-- This was how I had to package the buttons to get them to sit side by side -->
-    <div id="outer">
-        <!-- Both buttons are set up to run mutliple functions when clicked -->
-        <div class="inner"><button onclick="arm(); theLaunch(); playControl();" class="launchButton" id="launchButton">Arm Launch</button></div>
-        <div class="inner"><button onclick="abort(); reload();" class="abortButton" id="abortButton" disabled=true>Abort Launch</button></div>
-        <div class="inner">
-            <a href="nasa3.html">
-                <button class="theButton" id="theButton">Go to Data</button>
-            </a>
+  </head>
+  <body>
+    <header>
+      <img src="/image/uat-logo.png" alt="uat-logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="board.html">Board Objectives</a></li>
+          <li><a href="sip.html">SIP</a></li>
+          <li><a href="nasa1.html">NASA</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="nas-base-color">
+        <div class="container">
+          <img src="/image/UATspaceLogo.png" alt="space-logo">
         </div>
-    </div>
-    <!-- These are the audio files used with functions -->
-    <audio id="control" src="/resource/s_Computers are in Control.mp3"></audio>
-    <audio id="liftoff" src="/resource/s_STS-41D_Liftoff.mp3"></audio>
-    <audio id="rocket" src="/resource/s_131_launchNats.mp3"></audio>
-    <audio id="count" src="/resource/s_countdown-917.mp3"></audio>
-    <br><br><br>
-    <div>
-        <p style="font-size: 20px">Immersion</p>
-        <audio controls>
-            <source src="/resource/s_tng_bridge_1.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-    <br><br><br>
-</body>
+        <h1>UAT Space Program</h1>
+        <table class="launch-data" border="5" width="25%">
+          <colgroup>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <th>Data Type</th>
+            <th>Readings</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Time Elapsed:</td>
+              <td id="seconds">0 sec</td>
+            </tr>
+            <tr>
+              <td>Latitude:</td>
+              <td id="latitude">°</td>
+            </tr>
+            <tr>
+              <td>Longitude:</td>
+              <td id="longitude">°</td>
+            </tr>
+            <tr>
+              <td>GPS Altitude:</td>
+              <td id="gps_altitude">0 m</td>
+            </tr>
+          </tbody>
+        </table>
+        <p id="countDown"> Awaiting Launch </p>
+        <div id="outer">
+          <div class="inner"><button onclick="arm(); theLaunch(); playControl();" class="launchButton" id="launchButton">Arm Launch</button></div>
+          <div class="inner"><button onclick="abort(); reload();" class="abortButton" id="abortButton" disabled=true>Abort Launch</button></div>
+          <div class="inner"><a href="nasa3.html"><button class="theButton" id="theButton">Go to Data</button></a></div>
+        </div>
+        <audio id="control" src="/resource/s_Computers are in Control.mp3"></audio>
+        <audio id="liftoff" src="/resource/s_STS-41D_Liftoff.mp3"></audio>
+        <audio id="rocket" src="/resource/s_131_launchNats.mp3"></audio>
+        <audio id="count" src="/resource/s_countdown-917.mp3"></audio>
+        <div class="immer">
+          <p>Immersion</p>
+          <audio controls><source src="/resource/s_tng_bridge_1.mp3" type="audio/mpeg"></audio>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Created by Levi Overstreet. &copy; 2023</p>
+    </footer>
+  </body>
 </html>
