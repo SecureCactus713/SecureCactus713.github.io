@@ -63,6 +63,11 @@ a {
   font-family: "montserratregular";
   font-size: 25px;
 }
+.nas a {
+  color: rgb(20, 40, 130);
+  font-family: "nasalizationregular";
+  font-size: 25px;
+}
 h1 {
   font-family: "montserratsemibold";
   font-size: 70px;
