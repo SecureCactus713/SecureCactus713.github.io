@@ -207,6 +207,19 @@ footer p{
   background: linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
   text-shadow: 3px 4px 6px #000000;
 }
+.nasbar {
+  height: max-content;
+  width: 100%;
+  margin: auto;
+  padding: 100px;
+  align-items: center;
+  background: rgb(70, 100, 200);
+  background: -moz-linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  text-shadow: 3px 4px 6px #000000;
+}
 .container {
   display: flex;
   justify-content: center;
