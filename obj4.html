@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>UAT Portfolio - Board Objective 4</title>
-    <link rel="icon" href="image/favicon.ico">
-    <link href="css/obj4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-    <div class="navbar">
-        <img src="image/uat-logo.png" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="board.html">Board Objectives</a></li>
-                <li><a href="sip.html">SIP</a></li>
-                <li><a href="nasa1.html">NASA</a></li>
-            </ul>
-        </nav>
-    </div>
-    <br><br><br><br><br><br><br><br><br>
-    <img src="/image/construction.jpg" class="construction">
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <h1>Network Security Objective 4</h1>
-    <br><br><br><br>
-    <p>
-            Create a policy or procedure that addresses events such<br><br>
-            as: a disaster recovery plan, a business continuity plan,<br><br>
-            an incident response policy, an acceptable usage document,<br><br>
-            an information security policy, a physical security policy,<br><br>
-            assessments or troubleshooting procedures.<br><br>
-    </p>
-    <br><br><br><br>
-    <div class="midbar">
-	    <h2>Objective Application</h2>
-    </div>
-    <div class="footbar">
-        <a href="#">Scroll To Top</a>
-    </div>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css" type="text/css">
+    <link rel="icon" href="/image/favicon.ico">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+      <img src="/image/uat-logo.png" alt="uat-logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="board.html">Board Objectives</a></li>
+          <li><a href="sip.html">SIP</a></li>
+          <li><a href="nasa1.html">NASA</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="obj-main">
+          <div class="main-intro">
+            <h1>Network Security Objective 4</h1>
+            <p>
+              Create a policy or procedure that addresses events such as:<br><br>
+              a disaster recovery plan, a business continuity plan,<br><br>
+              an incident response policy, an acceptable usage document,<br><br>
+              an information security policy, a physical security policy,<br><br>
+              assessments or troubleshooting procedures.<br><br>
+            </p>
+          </div>
+          <div class="midbar">
+            <h2>Objective Application</h2>
+            <p>
+              This particular objective was fully covered in my<br>
+              <b><i>NTS405 Incident Response</i></b> class. In this class I was<br>
+              introduced to the steps necessary to be well prepared as<br>
+              a member of an incident response team. I was taught what<br>
+              role I may play in an emergency and how best to be a reliable<br>
+              asset for other members of the incident response team. I was able<br>
+              to display what I learned in this class with my Final Assignment.<br>
+            </p>
+            <img src="/image/NTS405-Final.png" class="obj" alt="NTS405-Final">
+          </div>
+          <div class="mainbar">
+            <p>
+              For this Final my tasked was to write up a comprehensive<br>
+              Incident Response plan on how I would wargame an incident.<br>
+              I was to include any given disaster scenario, the potential<br>
+              events that could occur this event, and how I would respond<br>
+              in this scenario as a member of a incident response team.<br><br>
+              I feel confident that I met this objective with the presentation<br>
+              of my incident response documentation and the adherance to<br>
+              industry standards and regulations.
+            </p>
+            <embed src="/resource/NTS405-Overstreet-Levi-Final-Project.pdf" type="application/pdf" class="pdf">            
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Created by Levi Overstreet. &copy; 2023</p>
+    </footer>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }  
+    </script>
+  </body>
 </html>
