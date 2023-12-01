@@ -86,6 +86,7 @@ p {
   font-size: 25px;
   color: white;
   text-align: center;
+  line-height: 1.6;
 }
 section {
   height: max-content;
