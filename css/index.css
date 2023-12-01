@@ -431,6 +431,10 @@ audio {
 .mainbar img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.frame-marg {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -491,4 +495,18 @@ iframe {
 .board-main p {
   margin-bottom: 15px;
   text-shadow: 3px 4px 6px #000000;
+}
+.obj-main {
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: max-content;
+}
+.obj {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
