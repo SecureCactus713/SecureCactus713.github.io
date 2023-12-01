@@ -116,10 +116,10 @@ footer p{
   flex-direction: column;
   flex: 50%;
   background: rgb(20, 40, 130);
-  background: -moz-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -moz-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
   text-shadow: 3px 4px 6px #000000;
 }
 .main-right-upper h1 {
@@ -151,16 +151,15 @@ footer p{
 }
 .sec-base-color {
   background: rgb(20, 40, 130);
-  background: -moz-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: linear-gradient(to bottom right, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
+  background: -moz-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
 }
 .about-ground {
   background-image: url("/image/about_tech_v2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: auto;
 }
@@ -198,13 +197,13 @@ footer p{
   height: max-content;
   width: 100%;
   margin: auto;
-  padding: 50px;
+  padding: 100px;
   align-items: center;
   background: rgb(70, 100, 200);
-  background: -moz-linear-gradient(to bottom left, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-linear-gradient(to bottom left, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: -webkit-gradient(to bottom left, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));
-  background: linear-gradient(to bottom left, rgb(10, 30, 90), rgb(90, 120, 220), rgb(10, 30, 90));  
+  background: -moz-linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom left, #0a1e5a, #5a78dc, #0a1e5a);  
 }
 .container {
   display: flex;
@@ -225,10 +224,10 @@ footer p{
 }
 .nas-base-color {
   background: rgb(130, 130, 130);
-  background: -moz-linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
-  background: -webkit-linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
-  background: -webkit-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
-  background: linear-gradient(to right, rgb(80, 80, 80), rgb(170, 170, 170), rgb(80, 80, 80));
+  background: -moz-linear-gradient(to right, #505050, #aaaaaa, #505050);
+  background: -webkit-linear-gradient(to right, #505050, #aaaaaa, #505050);
+  background: -webkit-gradient(to right, #505050, #aaaaaa, #505050);
+  background: linear-gradient(to right, #505050, #aaaaaa, #505050);
   flex-direction: column;
 }
 .launch-data {
@@ -330,4 +329,69 @@ audio {
   margin-bottom: 50px;
   background-color: rgb(160, 160, 160);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sip-main {
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: max-content;
+}
+.main-intro {
+  height: max-content;
+  width: 100%;
+  margin: auto;
+  padding: 100px;
+  align-items: center;
+  background: rgb(20, 40, 130);
+  background: -moz-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+}
+.keys {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainbar {
+  height: max-content;
+  width: 100%;
+  margin: auto;
+  padding: 100px;
+  align-items: center;
+  background: rgb(20, 40, 130);
+  background: -moz-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: -webkit-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+  background: linear-gradient(to bottom right, #0a1e5a, #5a78dc, #0a1e5a);
+}
+.main-intro h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.main-intro p {
+  margin-bottom: 100px;
+}
+.midbar h1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.midbar h2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.midbar p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mainbar h2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mainbar p {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
