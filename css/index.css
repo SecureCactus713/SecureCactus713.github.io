@@ -560,3 +560,9 @@ iframe {
   width: 50%;
   margin: 15px; 
 }
+.mainbar a:hover {
+  color: red;
+}
+.midbar a:hover {
+  color: red;
+}
