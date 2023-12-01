@@ -395,3 +395,10 @@ audio {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.pdf {
+  width: 40%;
+  height: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
