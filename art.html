@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Artwork</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css" type="text/css">
+    <link rel="icon" href="/image/favicon.ico">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+      <img src="https://securecactus713.github.io/image/uat-logo.png" alt="uat-logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="board.html">Board Objectives</a></li>
+          <li><a href="sip.html">SIP</a></li>
+          <li><a href="nasa1.html">NASA</a></li>
+          <li><a href="nasa1.html">Coding</a></li>
+          <li><a href="nasa1.html">Artwork</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="mainbar">
+          <img src="/image/construction.jpg" class="construction" alt="under_construction">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Created by Levi Overstreet. &copy; 2023</p>
+    </footer>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }  
+    </script>
+  </body>
+</html>
