@@ -566,3 +566,11 @@ iframe {
 .midbar a:hover {
   color: red;
 }
+.construction {
+  width: 35%;
+  border-radius: 25px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
